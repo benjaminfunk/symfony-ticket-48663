@@ -13,7 +13,7 @@ class FileRequirements extends Compound
 	{
 		return [
 			new Assert\File(
-				maxSize: '1'
+				maxSize: '1k'
 			)
 		];
 	}

@@ -14,7 +14,7 @@ class Test
 			new FileRequirements()
 		],
 		groups: [
-			'Default', // "Default" shouldn't be mandatory, but without it throws an exception
+//			'Default', // "Default" shouldn't be mandatory, but without it throws an exception
 			'file'
 		]
 	)]

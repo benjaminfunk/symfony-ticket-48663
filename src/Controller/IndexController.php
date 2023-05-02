@@ -22,7 +22,7 @@ class IndexController extends AbstractController
 		// this one works like expected (validation fail)
 		dump($validator->validate($test, null, 'Default'));
 
-		// this one should throw a validation error
+		// this one should throw a validation error cause filesize > 1 k
 		dump($validator->validate($test, null, 'file'));
 
 		return new Response('');
